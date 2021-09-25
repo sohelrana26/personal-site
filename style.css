@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+.navber{
+    padding: 1% 7%;
+    background-color:#006161;
+    color: white;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2.2rem;
+    text-align: center;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+p{
+    font-size: 1.2rem;
+}
+a{
+    color: white;
+}
+p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.dotted-hr{
+    border:dotted 5px white;
+    border-bottom:none ;
+    margin: 20px auto;
+    width: 80px;
+}
+/* navber start hear  */
+.navber h1{
+    margin: 0;
+    padding-top: 10px;
+    letter-spacing: 2.4px;
+    text-shadow: 2px 4px rgb(17, 165, 165);
+    font-size: 2.5rem;
+}
+.navber .profile-logo img{
+    border:  ;
+    border-radius: 50%;
+    width: 100px;
+
+
+}
+.navber .title{
+display: flex;
+flex-direction: column;
+text-transform: uppercase;
+border: none;
+
+}
+.title a{
+    text-decoration: none;
+    margin: 8px 0px;
+    
+    padding: 10px 0px;
+    background-color: rgb(14, 151, 151);
+    border-radius: 15px;
+}
+.title a:hover{
+    background-color: rgb(163, 162, 162);
+}
+
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* for mobile  */
+[class*="col-"]{
+    width: 100%;
+}
+.navber::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/* navber ends hear  */
+/* search start hear  */
+.search{
+    padding-left: 20px;
+    border-radius: 15px solid;
+    padding: 10px;
+    background-color:rgb(255, 248, 248);
+}
+.input{
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 30px;
+    background-position: 3px 3px;
+    font-size: 1.1rem;
+    padding-left:30px ;
+    border-radius: 20px;  
+
+    
+}
+   .search::after{
+       display: table;
+       float: left;
+       content: '';
+   }
+
+
+/* search ends hear  */
+/* profile start hear  */
+.profile{
+    padding:100px 5px;
+    position: relative;
+    text-align: center;
+}
+.profile .top-img{
+    position: absolute;
+    top: 20px;
+    left:25px ;
+    width: 90px;
+
+    transition: width 1s, transform 2s;
+    
+}
+.profile .top-img:hover{
+transform: rotate(infinite);
+width: 115px;
+}
+.profile-title{
+    margin : 5px a  15px auto;
+    text-align: center;
+}
+.profile-title h1{
+    font-family: 'Architects Daughter', cursive;
+   word-spacing: -1px;
+}
+.profile-title p{
+/* font-family: 'Satisfy', cursive; */
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+color: gray;
+padding: 0 20px;
+ 
+}
+.profile .bottom-img{
+    position:absolute;
+    bottom: 10px;
+    right: 25px;
+    width: 90px;
+
+    transition: width 1s, transform 1s;
+
+}
+.profile .bottom-img:hover{
+    transform: rotate(infinite);
+    width: 115px;
+}
+
+
+/* profile start hear  */
+/* about me start hear  */
+ .aboutme{
+     text-align: center;
+     padding: 1% 7%;
+    
+     background-color: #39a4ac;
+ }
+ .aboutme h2{
+     color: white;
+ }
+ 
+.aboutme-img img{
+    width: 160px;
+    height: 180px;
+    border: 5px solid white;
+    border-radius: 50%;
+    
+}
+.aboutme .bio-deta{
+    color: white;
+       
+}
+.bio-deta p{
+    font-family: 'Architects Daughter', cursive;
+    
+font-weight: bolder;
+line-height: 15px;
+
+}
+.bio-deta a{
+    text-decoration: none;
+    color: rgb(187, 183, 183);
+    font-style: italic;
+}
+.bio-deta .cv-button{
+    padding:8px ;
+    width: 40%;
+    border-radius: 15px;
+    background-color: rgb(34, 161, 161);
+    font-size: 1.1rem;
+    cursor: pointer;
+
+    box-shadow: 0px 2px 4px 2px;
+}
+.cv-button:hover{
+    box-shadow:0 4px 8px 2px rgb(78, 90, 90) ;
+}
+.aboutme::after{
+    display: table;
+    clear: both;
+    content: '';
+} 
+
+/* about me start hear  */
+/* experience start hear  */
+
+.professional-experience{
+    padding: 2% 0;
+}
+
+.professional-experience .card{
+    padding: 5px;
+    background-color: rgb(158, 158, 158);
+    color: white;
+    margin: 0px 28px;
+    border-radius: 15px;
+
+
+
+    transition: s;
+    /* box-shadow: 0 6px 5px 4px rgb(138, 138, 138); */
+}
+.professional-experience .card:hover{
+    box-shadow: 0 4px 8px 3px black ;
+}
+.card-icon{
+    text-align: center;
+}
+.card-icon img{
+    text-align: center;
+    width: 90px;
+    margin-top: 10px;
+
+}
+.card-icon .redious{
+    border: 5px solid;
+    border-radius: 50% ;
+    padding: 10px;
+    margin: 15px;
+}
+.educational h2{
+font-family: 'Architects Daughter', cursive;
+
+ background-color: rgb(155, 155, 155);
+ box-shadow: 3px 5px black;
+ text-align: center;
+}
+.work h2{
+    font-family: 'Architects Daughter', cursive;
+
+background-color: rgb(155, 155, 155);
+box-shadow: 3px 5px black;
+text-align: center;
+}
+.skill h2{
+    font-family: 'Architects Daughter', cursive;
+
+background-color: rgb(155, 155, 155);
+box-shadow: 3px 5px black;
+text-align: center;
+}
+.skill-container{
+    padding-right: 25px; 
+}
+.skill-container li{
+    list-style: none;
+    margin: 30px 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+}
+.skill-container li::before{
+position: absolute;
+width: 100%;
+height: 12px;
+top: 25px;
+left: 0;
+
+content: '';
+background-color: rgb(156, 156, 156);
+border-radius: 25px;
+}
+.skill-container li::after{
+    position: absolute;
+    width: 0;
+    height: 12px;
+    top: 25px;
+    left: 0;
+    
+    content: '';
+    background-color: rgb(97, 92, 92);
+    border-radius: 25px;
+
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    }
+    .skill-container li::after{
+        animation-name: skil;
+    }
+    @keyframes skil {
+        to{
+            width: 90%;
+            background-color: rgb(168, 158, 158);
+        }
+    }
+.professional-experience::after{
+clear: both;
+display: table;
+content: '';
+}
+/* experience start hear  */
+/* aciv start hear  */
+.achievement-contact{
+    padding: 1% 7%;
+    background-color: #39a4ac;
+    color: white;
+}
+.achievement-contact p{
+    color: white;
+}
+
+  .contact{
+      
+      text-align: center;
+  }
+  .contact input, textarea{
+      width: 100%;
+      padding: 10px;
+      font-size: 1.1rem;
+      text-align: center;
+      border: none;
+      border-radius: 7px;
+      resize: none;
+  }
+  .contact button{
+      border: none;
+      border-radius: 12px;
+      background-color:rgb(3, 126, 126);
+      color: white;
+      cursor: pointer;
+      padding: 12px;
+      margin: 10px;
+      width: 100px;
+
+      box-shadow: 3px 5px rgb(190, 189, 189);
+
+  }
+   button:hover{
+      box-shadow: 0px 4px 6px 2px rgb(255, 214, 164);
+   }
+
+   .contact-links .media-button{
+       text-align: center;
+       
+      
+       
+      
+
+   }
+   .media-button .btn{
+      font-size: 1.5rem;
+      border-radius: 30%;
+      border: none;
+      padding: 7px;
+      margin: 5px;
+      width: 50px;
+      cursor: pointer;
+   }
+
+.achievement-contact::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* aciv ends hear  */
+/* footer srart hear  */
+.footer{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+.footer {
+
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:1.3rem;
+
+/* font-family: 'Josefin Sans', sans-serif; */
+
+
+}
+.footer::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/* footer ends hear  */

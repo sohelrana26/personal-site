@@ -1,0 +1,126 @@
+/* for desktop */
+.col-1 {width: 8.33%%}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* navber start hear */
+.navber{
+padding: 0% 0%;
+}
+.navber h1{
+margin-top: 20px;
+font-size: 2.7rem;
+letter-spacing: .4px;
+word-spacing: px;
+
+
+}
+.navber .title{
+    
+    flex-direction: row;
+    margin-top: 25px; 
+    justify-content: center;
+
+}
+.title a{
+    padding: 9px;
+    margin: 12px ;
+    background-color: transparent;
+}
+/* search start hear  */
+
+.search{
+    padding-left: 300px;
+}
+/* search ends hear  */
+/* profile start hear  */
+  .profile .top-img{
+    
+      left: 60px;
+      width: 100px;
+  }
+  .profile .top-img:hover{
+      width: 130px;
+  }
+  .profile .profile-title{
+      text-align: center;
+      width: 70%;
+      margin: -40px auto 20px auto;
+  }
+  .profile .bottom-img{
+      right: 60px;
+      width: 100px;
+  }
+  .profile .bottom-img:hover{
+      width: 130px;
+  }
+
+/* profile ends hear  */
+/* aboutme start hear  */
+
+.aboutme{
+margin: 10px auto 10px auto;
+
+
+}
+.aboutme-img{
+    margin-top: 120px;
+}
+.aboutme-img img{
+    width: 220px;
+    height: 230px;
+    border: 5px solid white;
+    border-radius: 50%;
+    
+}
+.bio-deta p{
+    text-align: left;
+}
+
+/* aboutme start hear  */
+/* experience start hear  */
+  
+.professional-experience{
+    padding: 0% 5%;
+}
+.professional-experience .card{
+    margin: 0px 10px;
+}
+
+/* experience ends hear  */
+/* achievement-contact start hear  */
+
+.achievement{
+    padding-right: 50px ;
+}
+.contact button{
+width: 120px; 
+}
+
+   .media-button .btn{
+       padding: 11px;
+       margin: 20px;
+   }
+   .contact-links .media-button{
+       padding-top: 40px ;
+   }
+
+
+/* achievement-contact ends hear  */
+.footer{
+
+}
+.hr{
+    width: 70%;
+}
+.hrs{
+    width: 90%;
+}
